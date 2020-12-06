@@ -1,0 +1,33 @@
+.banner {
+    width: 282px;
+    height: 360px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+}
+
+.banner__text {
+    word-wrap: break-word;
+    position: absolute;
+    left: 30px;
+    bottom: 35px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 35px;
+    width: 180px;
+    max-height: 110px;
+    color: white;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.banner__image {
+    width: 282px;
+    height: 205px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    border-radius: 10px 10px 0 0;
+}

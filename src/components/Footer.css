@@ -1,0 +1,21 @@
+.footer {
+    margin-top: 30px;
+    min-width: 100%;
+}
+
+.footer__content {
+    border-top: 1px solid rgba(154, 162, 236, 0.432);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.footer__email {
+    text-decoration: none;
+    color: black;
+}
+
+.footer__text {
+    color: black;
+    margin: 0;
+}
